@@ -47,13 +47,37 @@
     ```
     - npm (run) start
 
-### ESlint
+### ESlint & Prettier
 
-- [ ] ESlint
+- [x] ESlint
+- [x] Prettier
 
-### Prettier
+    - npm install eslint -D
+    - npx eslint --init
+    - lint 설정
+    - npm install -D eslint-config-prettier eslint-config-tui eslint-plugin-prettier
+    - npm install -D prettier
+    ```json
+        "lint": "eslint ./index.js --fix"
+    ```
 
-- [ ] Prettier
+    - .eslintrc.js
+        - ```javascript
+            module.exports = {
+                parserOptions: {
+                    sourceType: "module"
+                },
+                env: {
+                    browser: true,
+                    es6:true
+                },
+                extends: ['eslint-config-tui', 'prettier'],
+                plugins: ["prettier"],
+                rules: {
+                    "prettier/prettier": "error",
+                }
+            }
+        ```
 
 ### Jest
 
