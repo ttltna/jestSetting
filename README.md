@@ -19,14 +19,14 @@
 ### nodemon
 
 - [x] nodemon
-    -npm install -D nodemon
+    - npm install -D nodemon
     ```json
         "scripts":{
             "start": "nodemon ./index.js"
         },
     ```
 
-    -npm (run) start
+    - npm (run) start
 
 ### babel
 
