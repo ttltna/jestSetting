@@ -47,7 +47,18 @@
     ```
     - npm (run) start
 
+### ESlint
+
 - [ ] ESlint
+
+### Prettier
+
 - [ ] Prettier
+
+### Jest
+
 - [ ] Jest
+
+### Cypress
+
 - [ ] Cypress
