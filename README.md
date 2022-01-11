@@ -31,11 +31,9 @@
 ### babel
 
 - [x] babel
-    -npm i -D @babel/core @babel/preset-env @babel/cli @babel/node
-    
-        - 만약 오류 발생시 npm -g install -D @babel/core @babel/preset-env
-        @babel/cli @babel/node
-    -루트 디렉터리에 **babel.config.json** 파일 생성
+    - npm i -D @babel/core @babel/preset-env @babel/cli @babel/node
+    - 만약 오류 발생시 npm -g install -D @babel/core @babel/preset-env @babel/cli @babel/node
+    - 루트 디렉터리에 **babel.config.json** 파일 생성
     ```json
         {
             "presets": ["@babel/preset-env"]
