@@ -62,7 +62,7 @@
     ```
 
     - .eslintrc.js
-        - ```javascript
+        ```javascript
             module.exports = {
                 parserOptions: {
                     sourceType: "module"
@@ -95,7 +95,7 @@
     -script 수정
     ```json
         "scripts": {
-            명령어: "jest --watchAll --collect[=true] --logHeapUsage"
+            "test:jest": "jest --watchAll --collect[=true] --logHeapUsage"
         }
     ```
     - test 폴더 하위에 (원하는 파일명).test.js 파일 생성
