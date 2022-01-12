@@ -41,7 +41,7 @@
     ```
     ```json
         "scripts": {
-            "start": "nodemon --exc babel-node ./index.js"
+            "start": "nodemon --exec babel-node ./index.js"
         },
     ```
     - npm (run) start
